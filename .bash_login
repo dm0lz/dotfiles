@@ -1,0 +1,18 @@
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+test -r /sw/bin/init.sh && . /sw/bin/init.sh
+#. ~/nvm/nvm.sh
+
+##
+# Your previous /Users/molz/.bash_login file was backed up as /Users/molz/.bash_login.macports-saved_2013-02-28_at_18:07:17
+##
+
+# MacPorts Installer addition on 2013-02-28_at_18:07:17: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+alias ebstatus="python2.7 /Users/molz/Desktop/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7/eb status"
+alias eb="python2.7 /Users/molz/Desktop/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7/eb"
+source ~/.profile
+source ~/.rvm/scripts/rvm

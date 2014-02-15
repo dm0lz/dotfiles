@@ -1,0 +1,20 @@
+
+
+
+
+color molokai
+let NERDTreeShowBookmarks=1
+"highlight Normal ctermfg=grey ctermbg=darkblue
+
+
+map  <C-t> :tabnew<CR>
+map  <C-H> :tabprevious<CR>
+map  <C-L> :tabnext<CR>
+
+
+map <F5> :cn <CR>
+
+map <F4> :cp <CR>
+
+
+set mouse=a
